@@ -239,6 +239,11 @@ main {
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 15px;
+}
+
+.profile-picture > img {
+    width: 50px;
 }
 
 .trending-text > p:last-child{
