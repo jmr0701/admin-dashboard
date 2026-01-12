@@ -74,6 +74,13 @@ header {
     padding-bottom: 10px;
 }
 
+.search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
 .search > svg{
     height: 1.6rem;
     width: auto;
