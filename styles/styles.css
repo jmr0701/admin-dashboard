@@ -160,6 +160,9 @@ header {
 main {
     display: grid;
     grid-template-columns: 3fr 1fr;
+    gap: 30px;
+    background-color: #e2e5f0;
+    padding: 25px 40px 30px 20px;
 }
 
 .projects {
