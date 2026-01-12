@@ -133,3 +133,13 @@ header {
     display: flex;
     gap: 30px; 
 }
+
+.header-buttons > button {
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 10px 31px;
+    border: none;
+    border-radius: 20px;
+    background-color: #397ad8;
+    color: white;
+}
