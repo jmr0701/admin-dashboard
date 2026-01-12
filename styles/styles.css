@@ -187,6 +187,20 @@ h3 {
     padding: 30px 25px 25px 20px;
 }
 
+.card p {
+    color: #646464;
+    font-weight: normal;
+    font-size: 1rem;
+    padding: 5px;
+}
+
+.card .title {
+    color: black;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+
 .right-side{
     display: grid;
     align-content: space-between;
