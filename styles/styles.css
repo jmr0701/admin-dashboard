@@ -182,3 +182,11 @@ main {
     align-content: space-between;
     gap: 20px;
 }
+
+.announcement-list, .trending-list {
+    list-style-type: none;
+}
+
+.announcement-card, .trending-card {
+    background-color: white;
+}
