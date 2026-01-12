@@ -16,3 +16,13 @@ body {
     grid-row-start: 1;
     grid-row-end: 3;
 }
+
+.dashboard-header > svg {
+    height: 3.5rem;
+    width: auto;
+} 
+
+.nav-bar li svg {
+    height: 1.7rem;
+    width: auto;
+}
