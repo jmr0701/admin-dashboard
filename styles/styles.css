@@ -35,6 +35,18 @@ body {
     font-size: 1.8rem;
 } 
 
+.nav-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.nav-bar > li {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
 .nav-bar li svg {
     height: 1.7rem;
     width: auto;
