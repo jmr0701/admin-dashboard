@@ -170,3 +170,9 @@ main {
     grid-template-columns: repeat(auto-fit, minmax(300px,1.1fr));
     gap: 30px;
 }
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
