@@ -74,12 +74,22 @@ header {
     padding-bottom: 10px;
 }
 
+.search > svg{
+    height: 1.6rem;
+    width: auto;
+}
+
 .tools {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 0px 15px;
     gap: 30px;
+}
+
+.tools > svg {
+    height: 1.6rem;
+    width: auto;
 }
 
 .tools > img {
