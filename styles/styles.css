@@ -130,7 +130,7 @@ header {
     gap: 20px;
 }
 
-.profile-picture > img {
+.header-user > .profile-picture > img {
     width: 80px;
 }
 
