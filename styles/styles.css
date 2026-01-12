@@ -221,3 +221,26 @@ main {
 .announcement-cell > p:last-child{
     color: #646464;
 }
+
+.trending-card {
+    font-size: 0.9rem;
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.trending-list{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.trending-cell {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.trending-text > p:last-child{
+    color: #646464;
+}
