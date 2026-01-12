@@ -112,6 +112,11 @@ header {
     width: 50px;
 }
 
+.tools > p {
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
 .header-bottom {
     display: flex; 
     justify-content: space-between; 
@@ -127,6 +132,14 @@ header {
 
 .profile-picture > img {
     width: 80px;
+}
+
+.header-text > p {
+    font-weight: bold;
+}
+
+.header-text > h1 {
+    font-size: 1.6rem;
 }
 
 .header-buttons {
