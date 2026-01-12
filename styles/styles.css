@@ -17,9 +17,22 @@ body {
     grid-row-end: 3;
 }
 
+.dashboard-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 6%;
+    margin-left: 6%;
+    padding-bottom: 15%;
+}
+
 .dashboard-header > svg {
     height: 3.5rem;
     width: auto;
+} 
+
+.dashboard-header > h2 {
+    font-size: 1.8rem;
 } 
 
 .nav-bar li svg {
