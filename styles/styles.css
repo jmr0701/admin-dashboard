@@ -161,3 +161,9 @@ main {
     display: grid;
     grid-template-columns: 3fr 1fr;
 }
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1.1fr));
+    gap: 30px;
+}
