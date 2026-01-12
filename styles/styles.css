@@ -74,6 +74,14 @@ header {
     padding-bottom: 10px;
 }
 
+.tools {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 15px;
+    gap: 30px;
+}
+
 .tools > img {
     width: 50px;
 }
@@ -82,6 +90,13 @@ header {
     display: flex; 
     justify-content: space-between; 
     align-items: center;
+}
+
+.header-user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
 }
 
 .profile-picture > img {
