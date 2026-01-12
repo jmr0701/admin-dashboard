@@ -190,3 +190,34 @@ main {
 .announcement-card, .trending-card {
     background-color: white;
 }
+
+.announcement-card {
+    font-size: 0.8rem;
+    border-radius: 10px;
+    padding: 2rem;
+    padding-bottom: 0;
+}
+
+.announcement-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.announcement-list > li {
+    padding-bottom: 20px;
+    border-bottom: solid 1px #646464;
+}
+
+.announcement-list > li:last-of-type{
+    border: none;
+}
+
+.announcement-cell > p:first-child{
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.announcement-cell > p:last-child{
+    color: #646464;
+}
